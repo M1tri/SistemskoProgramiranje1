@@ -20,6 +20,7 @@ namespace SistemskoProjekatPrvi
         private static readonly KesLRU m_kes = new(3);
         private static readonly Stopwatch m_stopwatch = new();
 
+
         static void Main(string[] args)
         {
             static TimeSpan zaustaviStopwatch()
